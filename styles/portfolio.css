@@ -59,6 +59,7 @@ nav{
    background-image: url('../images/developer.png') , url('../images/header_bg.png');
    background-repeat: no-repeat;
    background-position: top left, bottom right;
+  
  }
 
 
@@ -91,5 +92,49 @@ nav{
  .banner-content{
    width: 585px;
  }
+
+ /* main part style */
+
+ .section-title{
+   font-size: 35px;
+   font-weight: bold;
+   color:#181818;
+ }
+
+ .section-description{
+   font-size: 18px;
+   color: #757575;
+ }
+
+ .secondary-bg{
+    background-color: #FFF8F3;
+ }
+
+ main{
+   max-width:1140px;
+   margin: 0 auto;
+
+ }
  
- 
+ .about{
+   border-radius: 10px;
+   padding: 130px 150px;
+   align-items: center;
+   margin: 130px ;
+ }
+
+ .about-items{
+   display: flex;
+   justify-content: space-around;
+ }
+
+ .item-title{
+   font-size: 20px;
+   color: #757575;
+   font-weight: 600px;
+ }
+
+ .item-description{
+   font-weight: bold;
+   font-size: 20px;
+ }
